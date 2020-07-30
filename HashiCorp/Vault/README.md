@@ -1,1 +1,1 @@
-#HashiCorp Certified Vault Associate
+# HashiCorp Certified Vault Associate
