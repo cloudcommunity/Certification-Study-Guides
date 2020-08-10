@@ -6,6 +6,8 @@ Study Guide: https://learn.hashicorp.com/tutorials/terraform/associate-study
 
 Exam Review Guide: https://learn.hashicorp.com/tutorials/terraform/associate-review
 
+Sample Questions: https://learn.hashicorp.com/tutorials/terraform/associate-quesions
+
 ## Udemy Courses
 
 Zeal Vora: https://www.udemy.com/course/terraform-beginner-to-advanced/
