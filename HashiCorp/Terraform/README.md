@@ -12,6 +12,8 @@ Sample Questions: https://learn.hashicorp.com/tutorials/terraform/associate-ques
 
 Zeal Vora: https://www.udemy.com/course/terraform-beginner-to-advanced/
 
+Use the discount coupon: TERRAFORM-CERT-AUG
+
 ## Practice Tests
 
 Bryan Krausen: https://www.udemy.com/course/terraform-associate-practice-exam/
