@@ -14,6 +14,10 @@ Zeal Vora: https://www.udemy.com/course/terraform-beginner-to-advanced/
 
 Use the discount coupon: TERRAFORM-CERT-AUG
 
+## Good Reads
+
+Bhargav Bachina: https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a
+
 ## Practice Tests
 
 Bryan Krausen: https://www.udemy.com/course/terraform-associate-practice-exam/
