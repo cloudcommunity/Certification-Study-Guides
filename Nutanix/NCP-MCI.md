@@ -9,4 +9,4 @@ Current version: 5.15
 
 ## Official Guides
 
-- [Exam Blueprint Guide]()
+- [Exam Blueprint Guide](/Nutanix/ds-ncp-mci-5.15-ebg.pdf) (PDF)
