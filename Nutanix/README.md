@@ -2,7 +2,7 @@
 
 ## Nutanix Certified Professional – Multi Cloud Infrastructure
 
-![NCP MCI badge](/ncp-mci-badge.png)
+![NCP MCI badge](/Nutanix/ncp-mci-badge.png)
 
 Exam Name: Nutanix Certified Professional – Multi Cloud Infrastructure (NCP-MCI) 5.15 (English)
 
