@@ -4,8 +4,10 @@
 
 ## Facts
 
-Exam Name: Nutanix Certified Professional – Multi Cloud Infrastructure (NCP-MCI) 5.15 (English)
-Current version: 5.15
+**Exam Name**: Nutanix Certified Professional – Multi Cloud Infrastructure (NCP-MCI) 5.15 (English)
+**Regular Price**: $199 USD
+
+**Purpose**: The Nutanix Certified Professional - Multicloud Infrastructure (NCP-MCI) 5.15 exam tests candidates on their skills and abilities deploying, administering and troubleshooting Nutanix AOS 5.15 in the Enterprise Cloud. Successful candidates demonstrate mastery of these skills and abilities.
 
 ## Official Guides
 
