@@ -22,6 +22,6 @@
 
 ## Official Guides
 
-- [Certification Overview](/Nutanix/ds-ncp-mci-5.15.pdf)
+- [Certification Overview](/Nutanix/ds-ncp-mci-5.15.pdf) (PDF)
 
 - [Exam Blueprint Guide](/Nutanix/ds-ncp-mci-5.15-ebg.pdf) (PDF)
