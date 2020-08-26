@@ -4,7 +4,7 @@
 
 ## Facts
 
-**Exam name**: Nutanix Certified Professional – Multi Cloud Infrastructure (NCP-MCI) 5.15 (English)
+**Exam name**: Nutanix Certified Professional – Multi Cloud Infrastructure (NCP-MCI) 5.15
 
 **Number of questions**: 75
 
