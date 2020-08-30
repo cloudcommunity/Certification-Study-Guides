@@ -34,3 +34,7 @@ Online proctoring - The candidate journey: https://support.questionmark.com/cont
 ## General Terraform Learning
 
 Official Terraform Tutorials: https://learn.hashicorp.com/terraform
+
+Official Terraform Documentation: https://www.terraform.io/docs/index.html
+
+A Comprehensive Guide to Terraform: https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca
