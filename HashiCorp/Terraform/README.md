@@ -12,7 +12,7 @@ Sample Questions: https://learn.hashicorp.com/tutorials/terraform/associate-ques
 
 Zeal Vora: https://www.udemy.com/course/terraform-beginner-to-advanced/
 
-Use the discount coupon: TERRAFORM-CERT-AUG
+Use the discount coupon: TERRAFORM-CERT-AUG (discount coupons for Zeal's courses can be found [here](https://github.com/zealvora/coupon-codes))
 
 ## Good Reads
 
