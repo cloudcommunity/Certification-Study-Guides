@@ -16,7 +16,10 @@ Use the discount coupon: TERRAFORM-CERT-AUG (discount coupons for Zeal's courses
 
 ## Good Reads
 
-Bhargav Bachina: https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a
+[250 Practice Questions For Terraform Associate Certification
+](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
+
+[A Guide to HashiCorp Certified Terraform Associate](https://medium.com/@sanoojm/a-giude-to-hashicorp-certified-terraform-associate-cd9b21699139)
 
 ## Practice Tests
 
