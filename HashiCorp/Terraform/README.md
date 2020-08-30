@@ -27,3 +27,7 @@ CloudME: https://www.udemy.com/course/hashicorp-certified-terraform-associate-20
 ## The Exam
 
 Online proctoring - The candidate journey: https://support.questionmark.com/content/online-proctoring-the-candidate-journey
+
+## General Terraform Learning
+
+Official Terraform Tutorials: https://learn.hashicorp.com/terraform
