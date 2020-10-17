@@ -1,0 +1,359 @@
+AZ 900 notes
+
+Intro
+1.Basic characteristics of cloud model/ computing
+Cloud computing is a remote virtual pool of on demand shared resources of compute, storage, database and network that can be rapidly deployed  on scale.
+2. Cloud models (private/public/hybrid)
+3. Cloud services (Iaas,Paas,Saas)
+4. Economic at scale
+5. Capex/ Opex
+
+Core Azure services/products
+1. architecutural components
+	Region
+	Region pairs
+	Geography
+	Availability 99.9
+	Availability Domain 99.99
+	Availability set 99.95 -> update domain, fault domain
+	Resource group
+	Azure Resource Manager
+2. Azure compute services
+	Azure VM
+	Azure scale sets -automatic scaling of identical vms - can also managed manually
+	Azure app services - PAAS (like appengine in gcp , elastic beanstalk in aws)
+	Azure functions - serverless code deploy ( like cloud functions like GCP , lambda in AWS)
+3. Azure Container service & Azure k8s service
+	Azure Container instances
+	Azure k8s service ( AKS - Complete orchestration service) 
+4. Azure network services
+	Azure virtual networks(VNet) - created at regional level
+	Virtual network peering(VNet peering) - Connect multiple virtual networks in different regions
+	Azure Load balancer - Automatically scales to create high avaialble access to app/resources
+	VPN gateway (Azure VPN) - enc traffic over internet b/w onprem and azue virtual network over public internet
+	Azure application gateway - actually a web traffic LB -includes WAF, session affinity and redirection
+	Content Delivery Network (CDN- content cache in nearby user locations)
+	Azure ExpressRoute - dedicated connection b/w on prem and cloud. High speed and reliable
+5. Azure Data categories
+	Structured data - stick to particular schema (relational DB)
+	Semi-structured - on-relational adhoc like schema (nosql dB)
+	Unstructured - like bucket storage - non-relational blob data
+6. Azure Storage Services
+	Disks - like block volumes - two flavours - managed and unmanaged
+	Files - like file share system - access from anywhere using SMB protocol - secure access from anaywhere using SAS(Shared access signature) token 
+	Container object storage called azure blob Storage - block blob, page blob, append blob
+	Queues - used to store and retrieve messages upto 64K in size - messages to be processed synchronously 
+	Tables - NoSQL datastore used to store large amt of structured data 
+7. Azure Database services
+	Azure CosmosDB - schemaless nosql database
+	Azure SQL database - relational DB as Database as service - 
+	Azure Cache for Redis
+	Azure Synapse Analytics - like datawarehousing service like aws redshift
+	DB migration service - enable seamless migration from multiple datasources to aure data platforms with minimal downtime
+8. Azure Management Tools
+	Azure portal
+	Azure powershell - needs windows powershell to run - New-AzVm _REsourceGroupName "MyResourceGroup" -Name "MyVM01" -Image "UbuntuLTS" (basic cmd to launch an instance)
+	Azure mobile app
+	Azure REST API 
+	Azure SDK
+	Azure CLI - cross platform CLI - az vm create --resource-group MyresourceGroup -name MyVM --image UbunutLTS --generate-ssh-keys	
+	Azure Cloud shell - browser based scripting env
+	Azure advisor - gives personalised best practise recommendations ( like aws trusted advisor) - High Availability, Security, Performance, and Cost.  
+9. Azure marketplace
+	has some prebuild images/softwares from various vendors like aws marketplace and Gcp marketplace
+
+Azure solutions
+1. Azure Internet of Things (IOT)
+	a) Azure IOT central - global IOT SaaS - fully managed -easy to connect, monitor and manage - no cloud expertise required
+	b) Azure IOT Hub - managed service- central message hub for bidirectional communication b/w IOT apps and services - device to cloud and cloud to device
+2. Bigdata and analytics
+	a) Azure sql data warehouse - cloud based enterprise data warehouse - massive parallel processing(MPP) - PetaBytes of data - using simple T-SQL queries and MPP
+	b) Azure HD insight - open source analytics service to process massive amounts of data - can run popular open source frameworks like hadoop,spark, kafka, 
+	c) Azure data lake analytics - on demand analytics job service - write queries to transform and extract insights from it - only pay for the running job
+	d) Azure Data bricks - apache spark based analytics platform thats optimized for azure
+3. Artificial Intelligence
+	a)Azure machine learning service - cloud based env used to develop, train, test, deploy, manage and track ML models
+	b)Azure machine learning studio - collaborative, drag and drop visual workspace used to build, test, deploy ml solns wihtout writing code.
+4. Serverless computing
+	a) Azure functions - Only concerned with the code - like aws lambda and gcp cloud functions - perfect when demand is variable - Stateless
+	b) Azure logic apps - automate and orchestrate tasks, business processes and workflows when needed to integrate apps - build scalable solutions either in onprem or cloud or both
+	c) Azure Event Grid - fully managed, intelligent event routing service that uses pub-sub model for uniform event consumption - like setting event triggers in azure service/ non-azure service
+5.Devops
+	a) Azure Devops service - provides development collab tools like pipeline, git repo, kanban boards and automated cloud based Load testing - also integrate with jenkins and chef
+	b) Azure DevTest Labs - create env in azure while minimizing waste and controlling cost
+6. Azure App service 
+	Quickly create and build web/mobile apps for any platform or device.
+	Like google's app engine
+	serverless code with multiple languages and framewoks while integrating with git etc..  with scaling if needed automatically/manually
+	collection of app templates in marketplace
+
+Security, privacy, compliance and Trust
+
+Securing Network Connectivity
+Defense in Depth strategy - mechanism  to slow the advance of an attack that was aimed acquiring unauthorised access to data
+Confidentiality - principle of least privilege
+Integrity- prevention of unauthorised changes to info during transit
+Availability - ensure service remains available to authorised users protecting from attacks like DDos
+6 layers of protection
+1. Physical
+2. Identity and access
+3. Perimeter
+4. Network
+5. Compute
+6. Application 
+
+Azure firewall 
+- managed network security service in azure protects Azure virtual network resources - Fully stateful Firewall as a service
+-uses static public ip to represent virtual network and fully integrated with azure monitor
+Azure application gateway - provides firewall called WAF - web application firewall which provides centralised inbound protection for web applications
+
+Azure DDos Protection :- available In all region by default 
+	Basic tier - automatically enabled - always ON traffic monitoring
+	Standard Tier - adds additional mitigation capabilities - tuned especially for azure network resources - mainly associated with azure public ip deployments like LB and resources attached to public ip. Prevents volumetric, protocol and resource layer attacks.
+
+Network Security Group(NSG)
+- Filters network traffic to and fro from azure resources connected to azure virtual network
+- Contains inbound and outbound rules
+- Name- priority- Source/Destination- protocol- direction- port range- Action
+- Has default rules that cannot be removed but overridden
+
+Application security Groups:
+- Configure network security as an extension of an app structure
+- Groups vm and then apply network security based on those grouping
+
+Choosing Azure Network security Solution
+	Perimeter layer - protects network boundaries using Azure DDos protection and Azure firewall
+	Networking Layer - allows traffic to pass between networked resources inbound and outbound rules defined
+ Azure VPN gateway
+Azure expressroute
+Azure network service endpoints
+Azure Core identity Services
+	Authentication - process of establishing identification of the identity
+	Authorization - establish level of access what the authenticated entities has
+Role based access control
+Azure Active Directory
+- Microsoft identity and access management service
+- provides authentication, single signal, application management, B2B identity service , B2C service, Device management
+Azure multi-factor authentication
+- limits impact of stolen credentials like OTP, notification, biometric etc..
+* A knowledge factor - something the user knows.
+* A possession factor - something the user owns, such as an email address or mobile device.
+* An inheritance factor - something that confirms identity via a physical characteristic, such as a fingerprint or other biometric.
+- 
+Azure active directory Domain service
+
+Security Tools and features
+	
+- Azure security centre - provide threat protection services In azure and onprem - continuously monitors services and performs automatic security assessment - analyse and identify inbound attacks and investigate risks
+    - Two tiers - Free and standard
+-  Azure key vault - stores app secrets in centralised cloud location to securely control access permission and access logging
+- Azure information protection - classify and protect documents and emails by applying labels
+-  Azure advanced threat protection (ATP) - identify , detect and investigate advanced threats and compromised identities
+    - Azure ATP portal
+    - Azure ATP sensors
+    - Azure ATP cloud service
+
+Azure Governance
+- Azure policy - create, assign and manage policy that enforce rules and effects over your resource
+    - Can also integrate with azure devops
+    - Create definition - > Assign definition -> review results ( three steps implementing azure policy)
+- Policy initiatives
+    - Initiative definition - group multiple policy definitions into a single unit to track compliance at a higher scope
+    - Initiative assignment - assigned to specific scope and reduce the need to make an initiative definition for each scope
+- Role based access control (RBAC) 
+    - Fine grained access management for azure resources
+    - Based on allow model ( by default allows user to access specific resource by default)
+- Resource Locks
+    - Used to prevent accidental deletion of modification did azure resources. Looks are managed from within the azure portal
+    - Cannot delete (read and update not delete) and readonly (only read, no update and delete)
+- Azure Blueprint
+    - Define repeatable sets of azure resources that implement and adhere to standards, patterns and requirements
+    - Like instance templates, Iaac like terraform, cloud formation
+    - Create azure blueprint -> assign blueprint -> track blueprint assignment
+    - Diff b/w azure resource manager templates and blueprints
+        - Resource manager templates - have no active relationship with deployed resources
+        - Blueprint - tied to azure blueprint package - relationship bow resource is maintained even after deployment
+- Subscription governance
+Monitoring and Reporting
+- Azure tags - logically organize azure resources - adding meta data to them - name value pair eg: env : prod or env : developement 
+    - Helps in billing 
+    - Tag limitations - not all resource types support tags, maximum 50 tags(Rg&resources) - 15 tags for storage accounts 
+    - Tag name - 512 chars : tag value - 256 chars storage acc - > tag name : 128 chars tag value : 256chars
+    - VM scale sets total of 2048 chars tag names and values 
+    - Not inherited to resources under resource grps if applied to Rg level
+- Azure Monitor - collect ,analyse and act upon telemetry from both cloud and on Prem env
+    - Application monitoring data
+    - Guest os monitoring data
+    - Azure resource monitoring data
+    - Azure subscription monitoring data
+    - Azure tenant monitoring data
+- Azure service Health - provides personalised guidance and support whenever issues with azure services affect you
+    - Azure status
+    - Azure service health
+    - Azure resource health
+- Monitoring apps and services - data monitoring to gain visibility ops of your computing env
+    - Analyze  -application insights , azure monitor for containers, azure monitor for vm
+    - Respond - email and text alerts; automated process(autoscale)
+    - Visualize - charts, tables, dashboards and views
+    - Integrate - other azure services can work with azure monitor
+
+Privacy, compliance and data protection
+
+Most common certs are  CJIS(only in azure), CSA star certification, GDPR, HIPAA, ISO/IEC 27018 , NIST
+
+Privacy statement
+Trust centres
+Service trust portal (STP)
+Compliance manager - risk assessment dashboard - track, assign and verify regulatory compliance activities
+
+Azure government services - separate DC from azure for govn
+Azure china - separate instance of azure in china from provider 21Vianet - as per china standard
+
+
+Azure pricing and Support
+
+Azure subscription 
+- When we signup, we are creating subscription
+- We can have one or multiple subs
+-  used as billing boundary, determines azure account billed for azure usage
+- Used as access control boundaries, as azure applies access manaement policies at subscription level
+Subscription options
+- Free account
+- Pay as you go model
+- Member offers - offers made to existing Microsoft products like visual studio members etc..
+Organisation structure
+- Management grps - containers manage access,policy and compliance for multiple subs  —top level - 10000 managememnt grps can be supported in single directory
+- Subscriptions - user accounts and resources created by those user accounts
+- Resource grps - logical container that we deploy resources - like compartments
+- Resources - instances of servers
+
+Planning and managing costs
+    - Enterprise customers
+    - Web direct customers
+    - Cloud solution providers
+- Factors that affect azure cost
+    - Resource types
+    - Services -usage rates between types of customer
+    - Location - based on availability
+- Zones and billing 
+    - data transfers in azure dc is free
+    - Here zone is diff from availability zone - zone here refers billing and AZ refers HA
+    - Outbound data transfer cost money and depends on zones ( 4 zones - zone 1, zone 2, zone 3, DE zone 1)
+- Azure pricing calculator
+    - Estimate cost of diff azure products
+- TCO calculator (total cost of ownership)
+    - Allows to estimate cost savings when migrating our workloads to azure
+    - Define workloads -> adjust assumptions -> view reports
+- Minimising costs
+    - Cost analysis( using pricing and two calc)
+    - Monitor usage (azure advisor helps to determine under-utilised resource)
+    - Spending limits 
+    - Reservations ( discounted price if we committed for particular year and pay in advance)
+    - Locations/Regions 
+    - cost-saving offers
+    - Leverage tags to gap and organise billing data
+- Cost management - set of tools to monitor, allocate and optimise your azure costs and it is completely free
+
+- Azure Support options
+    - Support plan options
+        - All azure subs include free access for billing and other support
+        - Basic support
+        - Developer support
+        - Standard support
+        - Professional direct support 
+    - Alternate support channels
+        - MSDN forums
+        - stackoverflow
+        - Server fault
+        - Azure general feedback
+        - Twitter @azuresupport
+    - Knowledge centre
+        - Common Q/A
+- SLA in azure
+    - Product level SLA in services and the commitments made by Microsoft to meet those SLA
+    - Application SLA’s - customers use this to evaluate their own azure solutions are meeting their business requirements
+    - Availability metrics
+        - MTTR - mean time to recovery
+        - MTBF - Mean time between failure
+    - Recovery metrics
+        - RTO - Recovery time objective 
+        - RPO -Recovery point objective
+    - Performance targets
+    - Uptime
+    - Connectivity guarantees
+- Service lifecycle in Azure
+    - Public/private preview features
+    - Monitoring service and latest updates in azure updates page
+
+
+
+AZ 900 cloud academy
+
+Storage summary
+Azure blob storage
+Azure file storage
+Azure Data lake storage
+Azure sql storage
+Azure DB for open source
+Azure synapse analytics
+Azure cosmos DB
+Azure cache for redistribution
+
+Migration
+Azure migrate
+Azure active directory
+
+Devops
+Azure devops
+Azure pipelines
+Azure Devtest Labs
+Azure CDN 
+
+Azure IOT
+Azure IoT central
+Azure IoT hub
+Azure sphere
+
+Azure analytics
+AZure HDinsight
+Azure DataBricks
+Azure Synapse analytics
+
+AI
+Azure cognitive service
+Azure bot service
+Azure ML studio
+Azure ML service
+
+Integration
+Azure logic apps
+Azure event grid
+
+Management
+Azure monitor- > application insights, Log analytics, metrics and alerts
+Azure backup
+Azure advisor
+Azure Security centre
+Azure policy
+Advanced threat protection
+ARM(Azure Resource manager) Template
+Azure blueprint
+
+Security
+Azure security centre
+Azure key value
+Azure monitor logs
+Azure sentinel - cloud based security info event management solution
+
+Azure Storage security
+Azure storage service encryption (256 bit AES encryption)
+Shared access signatures - provides secure delegated access - User delegation SAS, Service SAS, Account SAS
+Storage account keys- generated when creating storage account - 2 keys usually 512 bits - Via shared key authorization
+Storage analytics - logging and provides meta data for storage account - 20TB limit for amt of data we can store
+
+Database Security
+
+Azure SQL firewall rules
+Azure SQL always encrypted
+Azure sql Transparent data encryption
+Azurre Sql database auditing
