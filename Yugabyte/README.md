@@ -1,2 +1,2 @@
-# YugabyteDB Certifications
+# Yugabyte Certifications
 
