@@ -18,7 +18,7 @@
 
 **Passing score**: 
 
-**Regular price**: 
+**Regular price**: 99 USD
 
 **Languages**: English
 
