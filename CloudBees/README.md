@@ -4,4 +4,5 @@
 - CloudBees Certified Jenkins Engineer (CCJE)
 
 Members who passed the CJE exam:
-- Gaurav Sadhwani
+- Gaurav Sadhwani (Slack)
+- Ramakrishna (Slack)
