@@ -1,6 +1,6 @@
 # Certified Jenkins Engineer
 
-![NCP-MCI badge](/Nutanix/ncp-mci-badge.png)
+![CJE badge](/CloudBees/cje-badge.png)
 
 ## Facts
 
