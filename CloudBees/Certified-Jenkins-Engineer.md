@@ -16,7 +16,7 @@
 
 **Time limit**: 90 minutes
 
-**Passing score**: 
+**Passing score**: 66%
 
 **Regular price**: 99 USD
 
@@ -28,3 +28,5 @@
 ## Members who passed the CJE exam:
 - Gaurav Sadhwani (Slack)
 - Ramakrishna (Slack)
+- Prasad Kundeti (Telegram)
+- Prem Kumar Palanichamy (Telegram)
