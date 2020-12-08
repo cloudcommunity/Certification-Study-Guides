@@ -24,6 +24,7 @@ Apache Cassandra™ 3.x Administrator Associate Certification is the ideal found
 Additional material:
 - Workshop: Cassandra Certification Exam Preparation: [NAM](https://www.youtube.com/watch?v=1NSUXcWrkZM) or [EMEA/APAC](https://www.youtube.com/watch?v=9lNhGwNucZ0)
 - [Introduction To Apache Cassandra](https://www.youtube.com/watch?v=B_HTdrTgGNs)
+- Free book ["Cassandra: The Definitive Guide"](https://www.datastax.com/resources/ebook/oreilly-cassandra-definitive-guide). Use a [disposable email](https://temp-mail.org/) if you hesitate to share yours or don't have a "business" email address.
 
 ## Sample Questions
 
