@@ -5,6 +5,7 @@
 - [Exam rules](https://www.datastax.com/dev/certification-rules)
 - 60 questions
 - Duration: 90 minutes
+- Regular price: $145
 - Proctored by [Mettl](https://mettl.com/)
 
 ## Learning Path
