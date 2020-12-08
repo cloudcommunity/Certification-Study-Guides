@@ -2,6 +2,8 @@
 
 Apache Cassandra™ 3.x Developer Associate Certification is the ideal foundational certification exam for developers looking to test their Apache Cassandra™ skills.
 
+![Apache Cassandra Developer Associate Certification Badge](Apache-Cassandra-Developer-Associate-Certification-Badge.png)
+
 ## Exam Facts
 
 - [Certification homepage](https://www.datastax.com/dev/certifications)
