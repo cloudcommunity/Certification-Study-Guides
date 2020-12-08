@@ -1,10 +1,13 @@
 # Apache Cassandra 3 Developer Associate Certification
 
+Apache Cassandra™ 3.x Developer Associate Certification is the ideal foundational certification exam for developers looking to test their Apache Cassandra™ skills.
+
 ## Exam Facts
 
 - [Exam rules](https://www.datastax.com/dev/certification-rules)
 - 60 questions
 - Duration: 90 minutes
+- Regular price: $145
 - Proctored by [Mettl](https://mettl.com/)
 
 ## Learning Path
