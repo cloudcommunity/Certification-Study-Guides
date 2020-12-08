@@ -1,5 +1,7 @@
 # Apache Cassandra 3 Administrator Associate Certification
 
+Apache Cassandra™ 3.x Administrator Associate Certification is the ideal foundational certification exam for administrators looking to test their Apache Cassandra™ skills.
+
 ## Exam Facts
 
 - [Exam rules](https://www.datastax.com/dev/certification-rules)
