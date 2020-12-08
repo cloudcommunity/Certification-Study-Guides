@@ -4,6 +4,7 @@ Apache Cassandra™ 3.x Developer Associate Certification is the ideal foundatio
 
 ## Exam Facts
 
+- [Certification homepage](https://www.datastax.com/dev/certifications)
 - [Exam rules](https://www.datastax.com/dev/certification-rules)
 - 60 questions
 - Duration: 90 minutes
