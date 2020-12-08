@@ -24,3 +24,7 @@ Apache Cassandra™ 3.x Administrator Associate Certification is the ideal found
 Additional material:
 - Workshop: Cassandra Certification Exam Preparation: [NAM](https://www.youtube.com/watch?v=1NSUXcWrkZM) or [EMEA/APAC](https://www.youtube.com/watch?v=9lNhGwNucZ0)
 - [Introduction To Apache Cassandra](https://www.youtube.com/watch?v=B_HTdrTgGNs)
+
+## Sample Questions
+
+https://github.com/DataStax-Academy/workshop-cassandra-certification/blob/main/PRACTICE.md
