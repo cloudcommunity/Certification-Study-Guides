@@ -6,6 +6,7 @@ Apache Cassandra™ 3.x Developer Associate Certification is the ideal foundatio
 
 - [Exam rules](https://www.datastax.com/dev/certification-rules)
 - 60 questions
+- A passing score is 70%
 - Duration: 90 minutes
 - Regular price: $145
 - Proctored by [Mettl](https://mettl.com/)
