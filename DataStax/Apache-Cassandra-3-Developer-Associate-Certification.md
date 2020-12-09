@@ -12,6 +12,7 @@ Apache Cassandra™ 3.x Developer Associate Certification is the ideal foundatio
 - Duration: 90 minutes
 - Passing score: 70%
 - Certificate validity: unlimited
+- Number of attempts: 2
 - Regular price: $145
 - Proctored by [Mettl](https://mettl.com/)
 - Exam dashboard: https://certification.mettl.com/datastax/applicant/login
