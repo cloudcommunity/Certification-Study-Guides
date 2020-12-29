@@ -6,9 +6,9 @@
 
 **Exam name**: Certified Jenkins Engineer (CJE)
 
-**Proctoring**: proctored
+**Proctoring**: online proctored
 
-**Exam platform**: 
+**Exam platform**: webassessor
 
 **Number of questions**: 60
 
