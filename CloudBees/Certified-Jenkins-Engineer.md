@@ -8,7 +8,7 @@
 
 **Proctoring**: online proctored
 
-**Exam platform**: webassessor
+**Exam platform**: Webassessor
 
 **Number of questions**: 60
 
