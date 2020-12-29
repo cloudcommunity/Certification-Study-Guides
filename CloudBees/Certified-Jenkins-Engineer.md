@@ -6,7 +6,7 @@
 
 **Exam name**: Certified Jenkins Engineer (CJE)
 
-**Proctoring**: not proctored
+**Proctoring**: proctored
 
 **Exam platform**: 
 
@@ -23,10 +23,3 @@
 **Languages**: English
 
 **Purpose**: 
-
-
-## Members who passed the CJE exam:
-- Gaurav Sadhwani (Slack)
-- Ramakrishna (Slack)
-- Prasad Kundeti (Telegram)
-- Prem Kumar Palanichamy (Telegram)
