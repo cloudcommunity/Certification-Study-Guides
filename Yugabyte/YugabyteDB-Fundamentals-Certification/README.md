@@ -1,6 +1,6 @@
 # YugabyteDB Fundamentals Associate
 
-![YFA Badge](/Yugabyte/YugabyteDB-Fundamentals-Certification/yfa-badge.png)
+![YFA Badge](yfa-badge.png)
 
 ## Facts
 
