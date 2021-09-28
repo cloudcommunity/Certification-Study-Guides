@@ -36,6 +36,6 @@ Aviatrix is a cloud native networking company. Aviatrix cloud-native networking 
 
 ## Resources
 
-- [Passing ACE Exam](http://iamajinkya.me/techwisdombyajinkya/Aviatrix-ace/)
+- [Passing ACE Exam](https://iamajinkya.me/techwisdom/aviatrix-ace-certification/)
 
 
