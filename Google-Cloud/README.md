@@ -1,5 +1,12 @@
 # Google Cloud Certifications
 
+
+## Foundational Certifications
+
+| Sl. No.  |  Name |  Description |  Experience required | Fee  |
+|---|---|---|---|---|
+|  1. |  [Cloud Digital Leader](https://cloud.google.com/certification/cloud-digital-leader) | The exam assesses the knowledge and skills of individuals who want or are required to understand the purpose and application of Google Cloud products. | No prescribed experience | $99 |
+
 ## Associate Certifications
 
 | Sl. No.  |  Name |  Description |  Experience required | Fee  |
