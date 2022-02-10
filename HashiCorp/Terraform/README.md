@@ -26,6 +26,7 @@
 - [A Guide to HashiCorp Certified Terraform Associate](https://medium.com/@sanoojm/a-giude-to-hashicorp-certified-terraform-associate-cd9b21699139)
 - [Terraform Study Guide](https://github.com/ari-hacks/terraform-study-guide)
 - [Terraform 101](https://blog.jagan-sekaran.me/terraform101)
+- [3 Steps to Acing the Hashicorp Terraform Associate Exam](https://zaidfakhruddin2.medium.com/3-steps-to-acing-the-hashicorp-terraform-associate-exam-927e4695e2bf)
   
 ## Practice Tests
 
