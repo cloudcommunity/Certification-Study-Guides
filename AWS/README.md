@@ -16,6 +16,27 @@ AWS provides a massive global cloud infrastructure that allows you to quickly in
 
 ## Certification
 
+### Overview
+| Level | Name | Cost (in the US)|
+|-------|------|-----------------|
+| Foundational | [AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) | $100 |
+|-------|------|-------------|-----------------|
+| Associate | [AWS Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/) | $150 |
+| Associate | [AWS Developer](https://aws.amazon.com/certification/certified-developer-associate/) | $150 |
+| Associate | [AWS SysOp](https://aws.amazon.com/certification/certified-sysops-admin-associate/) | $150 |
+|-------|------|-------------|-----------------|
+| Professional | [AWS Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-professional/) | $300 |
+| Professional | [AWS DevOps Engineer](https://aws.amazon.com/certification/certified-devops-engineer-professional/) | $300 |
+|-------|------|-------------|-----------------|
+| Specialist | [Advanced Networking](https://aws.amazon.com/certification/certified-advanced-networking-specialty/) | $300 |
+| Specialist | [Data Analytics](https://aws.amazon.com/certification/certified-data-analytics-specialty/) | $300 |
+| Specialist | [Database](https://aws.amazon.com/certification/certified-database-specialty/) | $300 |
+| Specialist | [Machine Learning](https://aws.amazon.com/certification/certified-machine-learning-specialty/) | $300 |
+| Specialist | [Security](https://aws.amazon.com/certification/certified-security-specialty/) | $300 |
+| Specialist | [SAP on AWS](https://aws.amazon.com/certification/certified-sap-on-aws-specialty/) | $300 |
+
+
+
 - [AWS certification](https://aws.amazon.com/certification/)
 - [AWS training](https://aws.amazon.com/certification/certification-prep/)
 
